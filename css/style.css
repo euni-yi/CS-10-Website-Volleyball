@@ -1,1 +1,37 @@
 /* CSS Style Sheet */
+html {
+   background-image: url(../img/intro2..jpg);
+   background-size:1300px;
+   background-repeat:no-repeat;
+
+   font-family:'Roboto', sans-serif;
+   
+   text-align: center;
+
+}
+
+
+
+h1{
+    color:aliceblue;
+    font-size:200px;
+    margin:25px;
+    padding:10px 200px;
+  
+}
+  
+h2{
+    color:aliceblue;
+    font-size:75px;
+   margin:30px;
+    padding:10px 200px;
+}
+
+a {
+    color:white;
+    
+}
+a:hover{
+    color: red;
+    cursor:grab
+}
