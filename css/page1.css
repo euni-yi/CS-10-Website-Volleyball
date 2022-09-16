@@ -8,3 +8,9 @@ ul{
 
     
 
+body{
+  text-align:center;
+  padding: 10px 200px;
+  margin: 10px 100px;
+  border: 25px;
+}

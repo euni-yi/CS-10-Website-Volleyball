@@ -3,7 +3,13 @@ html {
     font-family: 'Roboto', sans-serif;
  } 
  
- ul{
+ p{
    line-height: 30px;
- }  
- 
+ } 
+  
+ body {
+text-align: left;
+ padding: 10px 200px;
+ margin: 20px 100px;
+ border: 50px;
+ }
