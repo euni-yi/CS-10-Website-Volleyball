@@ -1,15 +1,53 @@
 
 html {
     font-family: 'Roboto', sans-serif;
+    background-color:darkred;
  } 
  
- p{
+ h1 {
+  font-size:80px;
+  text-align:center;
+ }
+ 
+ 
+ li{
    line-height: 30px;
  } 
   
  body {
-text-align: left;
- padding: 10px 200px;
- margin: 20px 100px;
+ text-align: center;
+ padding: 10px 100px;
+ margin: 10px 100px;
  border: 50px;
+ background-color: white;
  }
+ 
+ p{
+  text-align:left;
+ }
+
+ a{
+  text-align:center;
+  color:darkred;
+  
+}
+
+input {
+  width:60px;
+}
+
+a:hover{
+  color: black;
+  cursor:grab
+}
+
+Button:hover{
+  background-color:brown;
+  color: white;
+}
+
+button{
+  border-radius: 20px;
+  padding:5px 10px;
+}
+

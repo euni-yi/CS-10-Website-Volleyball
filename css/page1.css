@@ -1,16 +1,28 @@
 html {
    font-family: 'Roboto', sans-serif;
+   background-color:darkred;
 } 
 
 ul{
   line-height: 30px;
 }  
 
-    
+  
 
 body{
   text-align:center;
   padding: 10px 200px;
   margin: 10px 100px;
   border: 25px;
+  background-color:white;
+}
+
+a{
+  color:darkred;
+
+}
+
+a:hover{
+  color: black;
+  cursor:grab
 }

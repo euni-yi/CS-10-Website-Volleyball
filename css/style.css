@@ -1,8 +1,8 @@
 /* CSS Style Sheet */
 html {
-   background-image: url(../img/intro2..jpg);
-   background-size:1300px;
-   background-repeat:no-repeat;
+   background: url(../img/intro2..jpg) no-repeat center fixed;
+   background-size:cover;
+  
 
    font-family:'Roboto', sans-serif;
    
