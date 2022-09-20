@@ -2,21 +2,24 @@
 html {
    background: url(../img/intro2..jpg) no-repeat center fixed;
    background-size:cover;
-  
-
    font-family:'Roboto', sans-serif;
-   
    text-align: center;
 
 }
 
-
+body{
+    background-color:rgba(225, 225, 225, 0.4);
+    width:500px;
+    margin:35px auto;
+    text-align:center;
+    padding:5px 5px;
+    border-radius:355px;
+}
 
 h1{
     color:aliceblue;
-    font-size:200px;
-    margin:25px;
-    padding:10px 200px;
+    font-size:100px;
+    
   
 }
   

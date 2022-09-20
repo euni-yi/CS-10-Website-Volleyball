@@ -1,12 +1,16 @@
 html {
    font-family: 'Roboto', sans-serif;
-   background-color:darkred;
+  background: url( "/img/pg1bckg.webp") no-repeat center fixed;
+  background-size:cover;
 } 
 
 ul{
   line-height: 30px;
 }  
 
+img{
+  opacity:0.8;
+}
   
 
 body{
@@ -14,15 +18,16 @@ body{
   padding: 10px 200px;
   margin: 10px 100px;
   border: 25px;
-  background-color:white;
+  background-color:rgba(225, 225, 225, 0.7);
+  border-radius:25px;
 }
 
 a{
-  color:darkred;
+  color:white;
 
 }
 
 a:hover{
-  color: black;
+  color: red;
   cursor:grab
 }
