@@ -8,12 +8,12 @@ html {
 }
 
 body{
-    background-color:rgba(225, 225, 225, 0.4);
+
     width:500px;
     margin:35px auto;
     text-align:center;
     padding:5px 5px;
-    border-radius:355px;
+    border-radius:35px;
 }
 
 h1{

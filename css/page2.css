@@ -1,14 +1,23 @@
 
 html {
     font-family: 'Roboto', sans-serif;
-    background-color:darkred;
+    background: url( "/img/pg3.jfif") no-repeat center fixed;
+  background-size:cover;
  } 
  
  h1 {
   font-size:80px;
-  text-align:center;
  }
  
+.titlediv{
+  background-color:rgba(225, 225, 225, 0.8);
+  border-radius:  25px 20px 0 0;
+  margin: 10px auto;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
  
  li{
    line-height: 30px;
@@ -19,7 +28,8 @@ html {
  padding: 10px 100px;
  margin: 10px 100px;
  border: 50px;
- background-color: white;
+ background-color:rgba(225, 225, 225, 0.3);
+  border-radius:25px;
  }
  
  p{
@@ -28,7 +38,7 @@ html {
 
  a{
   text-align:center;
-  color:darkred;
+  color:white;
   
 }
 
@@ -48,6 +58,31 @@ Button:hover{
 
 button{
   border-radius: 20px;
-  padding:5px 10px;
+  padding:5px 20px;
+  font-variant:small-caps;
 }
 
+div{
+  text-align:left;
+  background-color:rgba(225, 225, 225, 0.8);
+  border-radius: 0 0 25px 20px;
+  margin: 10px auto;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.quizlink{
+  color:Black;
+  font-size:20px
+}
+
+input {
+  width: 60px;
+  border-radius:10px
+}
+
+.quizlink:hover{
+  color:blue;
+}
