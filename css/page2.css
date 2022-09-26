@@ -9,15 +9,6 @@ html {
   font-size:80px;
  }
  
-.titlediv{
-  background-color:rgba(225, 225, 225, 0.0);
-  border-radius:  25px 20px 0 0;
-  margin: 10px auto;
-  padding-top: 50px;
-  padding-right: 30px;
-  padding-bottom: 50px;
-  padding-left: 80px;
-}
  
  li{
    line-height: 30px;
@@ -33,7 +24,7 @@ html {
  }
  
  p{
-  text-align:left;
+  text-align:center;
  }
 
  a{
@@ -63,7 +54,7 @@ button{
 }
 
 div{
-  text-align:left;
+  text-align:center;
   background-color:rgba(130, 184, 228, 0.8);
   border-radius: 0 0 25px 20px;
   margin: 10px auto;
