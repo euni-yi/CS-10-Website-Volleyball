@@ -1,17 +1,19 @@
 html {
    font-family: 'Roboto', sans-serif;
-  background: url( "/img/pg1.jpg") no-repeat center fixed;
+  background: url( "../img/pg1bckg.webp") no-repeat center fixed;
   background-size:cover;
 } 
 
 
 
 div{
-  background-color: rgba(210, 45, 45, 0.7);
+  background-color: rgba(228, 128, 70, 0.7);
   color: white;
-  padding: 20px 0;
-  border-radius: 20px;
+  padding: 10px 0;
+  border-radius:0 0 20px  20px;
 }
+
+
 
 .pg1:hover{
   color:rgba(36, 43, 173, 0.7);
