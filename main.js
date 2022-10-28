@@ -15,29 +15,37 @@ function btnClicked(){
     if(answer ==="no"||answer==="incorrect"||answer==="false"){
         console.log("ture")
         num++
+    }else{
+        document.getElementById("q1").innerHTML = "incorrect";
     }
 
     let answer2 = document.getElementById("second").value;
     // input
     if(answer2 ==="3"||answer2==="three"){
-        console.log("ture")
+        document.getElementById("q2").innerHTML = "Correct";
+        num++
+    }else{
+        document.getElementById("q2").value.innerHTML = "incorrect"
     }
 
     let answer3 = document.getElementById("third").value.toLowerCase();
     // input
     if(answer3==="false"|| answer3==="incorrect" || answer3==="no"){
-        console.log("true")
-
+        document.getElementById("q3").innerHTML = "Correct";
+        num++
+    }else{
+        document.getElementById("q3").innerHTML = "incorrect";
     }
 
     let answer4 = document.getElementById("fourth").value.toLowerCase();
-    // input
+     // input
     if(answer4==="true" || answer4==="yes"|| answer4==="correct"){
-        console.log("true")
-     
-        
+        document.getElementById("q4").innerHTML = "Correct";
+        num++
+    }else{
+        document.getElementById("q4").innerHTML = "incorrect";
     }
-
+document.getElementById("num").value.innerHTML = ("final score")
 }
 
     
