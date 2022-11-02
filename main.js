@@ -2,7 +2,7 @@
 
 // HTML Variables
 let gradeEl = document.getElementById("final score")
-let num = 0
+
 
 
 // Button Event Listener
@@ -10,7 +10,9 @@ document.getElementById("btn").addEventListener("click", btnClicked);
 
 function btnClicked(){
 
+    let num = 0
     let answer = document.getElementById("first").value.toLowerCase();
+
     // input
     if(answer ==="no"||answer==="incorrect"||answer==="false"){
         document.getElementById("q1").innerHTML = "Correct";
@@ -25,7 +27,7 @@ function btnClicked(){
         document.getElementById("q2").innerHTML = "Correct";
         num++
     }else{
-        document.getElementById("q2").value.innerHTML = "incorrect"
+        document.getElementById("q2").innerHTML = "incorrect"
     }
 
     let answer3 = document.getElementById("third").value.toLowerCase();
@@ -45,7 +47,11 @@ function btnClicked(){
     }else{
         document.getElementById("q4").innerHTML = "incorrect";
     }
-document.getElementById("num").value.innerHTML = ("final score")
+
+    // process
+    document.getElementById("final-score").innerHTML=num;   
+    let percentage = num/4*100;
+    document.getElementById("percent").innerHTML=percentage;
 }
 
     
