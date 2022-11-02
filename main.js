@@ -13,7 +13,7 @@ function btnClicked(){
     let answer = document.getElementById("first").value.toLowerCase();
     // input
     if(answer ==="no"||answer==="incorrect"||answer==="false"){
-        console.log("ture")
+        document.getElementById("q1").innerHTML = "Correct";
         num++
     }else{
         document.getElementById("q1").innerHTML = "incorrect";
